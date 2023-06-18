@@ -4,7 +4,7 @@ from io import BytesIO
 from pathlib import Path
 
 st.set_page_config(
-    page_title="YTDownload",
+    page_title="You2ubeDownload",
     page_icon="icon.png",
     initial_sidebar_state="expanded",
     menu_items={
@@ -17,7 +17,7 @@ st.set_page_config(
 st.sidebar.image("logo.png")
 
 with st.sidebar:
-    st.markdown("<h1 style='text-align: center;'>YTDownload</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>You2ubeDownload</h1>", unsafe_allow_html=True)
     st.write("<h3 style='text-align: center;'>➤ View YT video</h1>", unsafe_allow_html=True)
     st.write("<h3 style='text-align: center;'>➤ Download YT Vedio</h1>", unsafe_allow_html=True)
     st.write("<h3 style='text-align: center;'>➤ Convert YT Video to Audio</h1>", unsafe_allow_html=True)
